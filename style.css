@@ -1,0 +1,127 @@
+/* Top part*/
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    background-color: #2C3333;
+    color: #F2F5C8;
+}
+
+h2,h3{
+    text-align: center;
+}
+
+.searchBar {
+    color: #F2F5C8;
+    /* background-color: #F2F5C8; */
+}
+
+.searchBar .btn{
+    background-color: #395B64;
+    color: #FFFFFF;
+}
+
+/**** main section*/
+.body-container{
+    display: flex;
+}
+.left-side{
+    /* background-color: #395B64; */
+    width: 35vh;
+    height: auto;
+    
+    margin-left: -0.75rem;
+    padding-left: 0.75rem;
+    padding: 2rem;
+}
+
+.item-container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-container button{
+    margin: 1rem;
+    background-color: #395B64;
+    color: #F2F5C8;
+}
+
+
+.item-img{
+    /* border: solid #2C3333; */
+    border-radius: 0.3rem;
+}
+.item-img img{
+    border-radius: 0.3rem;
+    width: 20vh;
+}
+
+/* Main boyd part */
+.main-body{
+    padding: 2em;
+    /* width: 65vh; */
+    /* height: 100vh; */
+}
+
+.card{
+    text-align: center;
+}
+
+.card-body .btn{
+    background-color: #395B64;
+    color: #F2F5C8;
+}
+
+.card img{
+    padding: 0.4em;
+}
+
+.row1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 0.8em;
+    grid-row-gap: 0.8em;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* registration form */
+
+
+.registration-form{
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 60%;
+}
+
+
+.footer {
+    background-color: #2C3333;
+    color: #F2F5C8;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-links li {
+  padding: 7px;
+}
+
+/* login */
+
+.forgot-pass{
+    padding-left: 11rem;
+}
+
+.login-image{
+    border-radius: 2%;
+}
